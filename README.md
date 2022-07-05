@@ -24,7 +24,3 @@ See the code in [grind75/week{n}](./grind75/)
 | [3. Insert Interval](https://leetcode.com/problems/insert-interval/) | 1 | July 05 2022 | 1 |  | 30 | :heavy_check_mark: |  |
 | [4. 3Sum](https://leetcode.com/problems/3sum/) | 1 | July 05 2022 | 1 |  | 30 | :heavy_check_mark: |  |
 |  |  |  |  |  |  |  |  |
-
-# Week 1
-
-## 1. Two Sum
