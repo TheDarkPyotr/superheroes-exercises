@@ -23,4 +23,12 @@ See the code in [grind75/week{n}](./grind75/)
 | [2. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 1 | July 05 2022 | 1 |  | 20 | :heavy_check_mark: |  |
 | [3. Insert Interval](https://leetcode.com/problems/insert-interval/) | 1 | July 05 2022 | 1 |  | 30 | :heavy_check_mark: |  |
 | [4. 3Sum](https://leetcode.com/problems/3sum/) | 1 | July 05 2022 | 1 |  | 30 | :heavy_check_mark: |  |
+| [5. Product of Array Except Self]() | --- | --- | --- | --- | --- | --- | --- |
+| [6. Combination Sum]() | --- | --- | --- | --- | --- | --- | --- |
+| [7. Merge Intervals]() | --- | --- | --- | --- | --- | --- | --- |
+| [8. Majority Element]() | --- | --- | --- | --- | --- | --- | --- |
+| [9. Sort Colors](https://leetcode.com/problems/sort-colors/) | --- | July 09 2022 | --- | --- | 25 | :heavy_check_mark: | --- |
+| [10. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | --- | July 09 2022 | --- | --- | 15 | :heavy_check_mark: | --- |
+| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | --- | July 09 2022 | --- | --- | 45 | :heavy_check_mark: | --- |
+| [13. Gas Station](https://leetcode.com/problems/gas-station/) | --- | July 09 2022 | --- | --- | 45 | :heavy_check_mark: | --- |
 |  |  |  |  |  |  |  |  |
