@@ -35,5 +35,4 @@ See the code in [grind75/week{n}](./grind75/)
 | [19. Move Zeroes]()https://leetcode.com/problems/move-zeroes/ | --- | July 12 2022 |  --- |  --- | 10 | :heavy_check_mark: |  |
 | [21. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | --- | July 12 2022 | --- | --- | 45/60 | :heavy_plus_sign: |  |
 | [22. Squares of a Sorted Array]() | --- | July 12 2022 | --- | --- | 30 | :x: |  |
-
 |  |  |  |  |  |  |  | :x: |
