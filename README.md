@@ -32,7 +32,7 @@ See the code in [grind75/week{n}](./grind75/)
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | --- | July 09 2022 | --- | --- | 45 | :heavy_check_mark: | --- |
 | [13. Gas Station](https://leetcode.com/problems/gas-station/) | --- | July 09 2022 | --- | --- | 45 | :heavy_check_mark: | --- |
 | [18. Employee Free Time](https://aaronice.gitbook.io/lintcode/sweep-line/employee-free-time) | --- |  July 12 2022 | --- | --- | 30 | :x: |  |
-| [19. Move Zeroes]()https://leetcode.com/problems/move-zeroes/ | --- | July 12 2022 |  --- |  --- | 10 | :heavy_check_mark: |  |
+| [19. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | --- | July 12 2022 |  --- |  --- | 10 | :heavy_check_mark: |  |
 | [21. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | --- | July 12 2022 | --- | --- | 45/60 | :heavy_plus_sign: |  |
 | [22. Squares of a Sorted Array]() | --- | July 12 2022 | --- | --- | 30 | :x: |  |
 |  |  |  |  |  |  |  | :x: |
