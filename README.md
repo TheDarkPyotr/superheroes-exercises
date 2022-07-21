@@ -17,22 +17,52 @@ Based on:
 
 # Roadmap
 See the code in [grind75/week{n}](./grind75/)
-| Name | ID | Date | Week | Tags | Time req. (min) | Solution | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [1. Two Sum](https://leetcode.com/problems/two-sum/) | 1 | July 05 2022 | 1 |  | 20 | :heavy_check_mark: |  |
-| [2. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 1 | July 05 2022 | 1 |  | 20 | :heavy_check_mark: |  |
-| [3. Insert Interval](https://leetcode.com/problems/insert-interval/) | 1 | July 05 2022 | 1 |  | 30 | :heavy_check_mark: |  |
-| [4. 3Sum](https://leetcode.com/problems/3sum/) | 1 | July 05 2022 | 1 |  | 30 | :heavy_check_mark: |  |
-| [5. Product of Array Except Self]() | --- | --- | --- | --- | --- | --- | --- |
-| [6. Combination Sum]() | --- | --- | --- | --- | --- | --- | --- |
-| [7. Merge Intervals]() | --- | --- | --- | --- | --- | --- | --- |
-| [8. Majority Element]() | --- | --- | --- | --- | --- | --- | --- |
-| [9. Sort Colors](https://leetcode.com/problems/sort-colors/) | --- | July 09 2022 | --- | --- | 25 | :heavy_check_mark: | --- |
-| [10. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | --- | July 09 2022 | --- | --- | 15 | :heavy_check_mark: | --- |
-| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | --- | July 09 2022 | --- | --- | 45 | :heavy_check_mark: | --- |
-| [13. Gas Station](https://leetcode.com/problems/gas-station/) | --- | July 09 2022 | --- | --- | 45 | :heavy_check_mark: | --- |
-| [18. Employee Free Time](https://aaronice.gitbook.io/lintcode/sweep-line/employee-free-time) | --- |  July 12 2022 | --- | --- | 30 | :x: |  |
-| [19. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | --- | July 12 2022 |  --- |  --- | 10 | :heavy_check_mark: |  |
-| [21. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | --- | July 12 2022 | --- | --- | 45/60 | :heavy_plus_sign: |  |
-| [22. Squares of a Sorted Array]() | --- | July 12 2022 | --- | --- | 30 | :x: |  |
-|  |  |  |  |  |  |  | :x: |
+|Name                                                                     |Tags          |Correct Solution|
+|-------------------------------------------------------------------------|--------------|----------------|
+|1. Two Sum                                                               |Easy          |Yes             |
+|2. Best Time to Buy and Sell Stock                                       |Easy          |No              |
+|3. Insert Interval                                                       |Medium        |No              |
+|4. 3Sum                                                                  |Medium        |No              |
+|5. Product of Array Except Self                                          |Medium        |Yes             |
+|6. Combination Sum                                                       |Medium        |No              |
+|7. Merge Intervals                                                       |Medium        |No              |
+|8. Majority Element                                                      |Easy          |Yes             |
+|9. Sort Colors                                                           |Medium        |Yes             |
+|10. Contains Duplicate                                                   |Easy          |Yes             |
+|11. Container WIth Most Water                                            |Medium        |Yes             |
+|13. Gas Station                                                          |Greedy, Medium|Yes             |
+|18. Employee Free Time                                                   |Hard          |Yes             |
+|19. Move Zeroes                                                          |Easy          |Yes             |
+|21. Sliding Window Maximum                                               |Hard          |More or Less    |
+|22. Squares of a Sorted Array                                            |Easy          |Yes             |
+|                                                                         |              |                |
+|                                                                         |              |                |
+|1. 3Sum Closest                                                          |Medium        |No              |
+|2. Non-overlapping intervals                                             |Medium        |Yes             |
+|3. Valid Palindrome                                                      |Easy          |Yes             |
+|4. Valid Anagram                                                         |Easy          |Yes             |
+|5. Longest Substring without Repetitions Characters                      |Medium        |More or Less    |
+|6. Longest Palindrome                                                    |Easy          |Yes             |
+|7. Minimum Window Substring                                              |Hard          |More or Less    |
+|8. String to integer (atoi)                                              |Medium        |Yes             |
+|9. Longest Palindromic Substring                                         |Medium        |Yes             |
+|10. FInd All Angrams in a String                                         |Medium        |Yes             |
+|11. Group Anagrams                                                       |Medium        |Yes             |
+|12. https://leetcode.com/problems/longest-repeating-character-replacement|Medium        |                |
+|13. Longest Common Prefix                                                |Easy          |No              |
+|14. Largest Number                                                       |Medium        |Yes             |
+|15. Encode and Decode Strings                                            |Medium        |Yes             |
+|16. Palindrome Pairs                                                     |Hard          |No              |
+|17. Spiral Matrix                                                        |Medium        |Yes             |
+|18. Valid Sudoku                                                         |Medium        |Yes             |
+|21. Sudoku Solver                                                        |Hard          |No              |
+|20. Set Matrix Zeroes                                                    |Medium        |More or Less    |
+|23. First Bad Version                                                    |Easy          |Yes             |
+|22. Binary Search                                                        |Easy          |Yes             |
+|23. First Bad Version                                                    |Easy          |Yes             |
+|                                                                         |              |                |
+|                                                                         |              |                |
+|1. Search in Rotated Sorted Array                                        |Medium        |More or Less    |
+|2. Time Based Key-Value Store                                            |Medium        |Yes             |
+|3. Maximum Profit in Job Scheduling                                      |Hard          |No              |
+|4. Median of Two Sorted Array                                            |Hard          |No              |
