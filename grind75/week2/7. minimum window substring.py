@@ -1,34 +1,43 @@
 class Solution:
-    def minWindow(self, s: str, t: str) -> str:
+    def minWindow(self, input: str, target: str) -> str:
+        
         start = 0
-        r = 0
-        limit = len(s)
-        dic_t = Counter(t)
-        dic_s = collections.defaultdict(int)
-        lenght = len(dic_t)
-        valido = True
-        res = (float('inf'), 0, 0)
-        while r < limit:
-            if s[r] in dic_t:
-                dic_s[s[r]] += 1
+        right = 0
+        limit = len(input)
+
+        dic_target = Counter(target)                # Contatore lettere target
+        dic_input = collections.defaultdict(int)    # Contatore lettere input (vuoto)
+        lenght = len(dic_target)                    # Contatore caratteri target
+        valido = True                               # Flag validità numero caratteri
+        
+        res = (float('inf'), 0, 0)                  # Risultato (lunghezza, indice inizio, indice fine)
+        
+        while right < limit:
+
+            if input[right] in dic_target:
+                dic_input[input[right]] += 1
 
             valido = True
-            if len(dic_s) == lenght:
-                for k in dic_s:
-                    if dic_s[k] < dic_t[k]:
-                        valido = False
+            if len(dic_input) == lenght:            # Se raggiunto dimensione ideale
+                for k in dic_input:                 # Per ogni car in dic_input
+                    if dic_input[k] < dic_target[k]:# Se numero car in input < car in target
+                        valido = False              # Sottostringa non più valida
             else:
-                valido = False
+                valido = False                      #Altrimenti non più valida
 
-            while start <= r and valido is True:
-                if r - start + 1 < res[0]:
-                    res = (r - start + 1, start, r)
-                if s[start] in dic_t:
-                    dic_s[s[start]] -= 1
-                start += 1
-                for k in dic_s:
-                    if dic_s[k] < dic_t[k]:
-                        valido = False
+            while start <= right and valido is True: # Se numero caratteri è valido, controllo se in sequenza
+                
+                if right - start + 1 < res[0]:
+                    res = (right - start + 1, start, right) # Aggiorno lunghezza minima
+                
+                if input[start] in dic_target:
+                    dic_input[input[start]] -= 1      # Riduco sottostringa
 
-            r += 1
-        return "" if res[0] == float("inf") else s[res[1]:res[2] + 1]
+                start += 1                            #Riduco finestra [start:right]
+                for k in dic_input:                   
+                    if dic_input[k] < dic_target[k]:  # Se numero caratteri non combacia
+                        valido = False                # Invalido sequenza
+
+            right += 1                                # Aumento finestra a DX
+            
+        return "" if res[0] == float("inf") else input[res[1]:res[2] + 1]
