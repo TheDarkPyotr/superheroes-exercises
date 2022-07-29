@@ -5,7 +5,7 @@ def longestCommonPrefix(words):
             
             while word[:len(prefix)] != prefix: 
                 print("prefix is %s",prefix)
-                prefix = prefix[:-1]
+                prefix = prefix[0:-1]
                 print("postfix is %s",prefix)
                     
                 if not prefix: 
@@ -14,4 +14,4 @@ def longestCommonPrefix(words):
     
 
 #print(longestCommonPrefix(["flo0123456789","flower","flight"]))
-print(longestCommonPrefix(["florida","flower","flight", "flow"]))
+print(longestCommonPrefix(["f0lorida","flower","flight", "flow"]))
