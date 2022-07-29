@@ -6,11 +6,11 @@ class Node:
 
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
-        
+        nodelist = {}
         if node is None:
             return 
         newNode = Node(node.val,[])
-        nodelist = {node: newNode}
+        nodelist[node] = newNode #  = {node: newNode}
         self.dfs(node, nodelist)
         
         return newNode
