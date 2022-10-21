@@ -1,4 +1,4 @@
-# Superheroes Exercises 2022
+# Superheroes Exercises
 
 A collection of solutions for some interviews problems on interviewbit and leetcode.
 
